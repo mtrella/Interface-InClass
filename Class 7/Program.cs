@@ -43,6 +43,10 @@ namespace Class_7
             IMonster monster = null;
             monster.Roar();
 
+            // New interface
+            Shield shield = null;
+            shield.Block();
+
             IRepository repos = new DbRepository();
 
             // all I care about is that I retrieved a movie 
